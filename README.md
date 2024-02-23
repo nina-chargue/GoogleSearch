@@ -13,7 +13,10 @@ This project replicates essential features of Google's search engine using HTML 
 
 - HTML: Structured the web pages with HTML elements, including forms, input fields, buttons, and links.
 - CSS: Styled the pages to resemble Google's aesthetics, focusing on centered search bars, rounded corners, and consistent button styling.
-- JavaScript: No JavaScript is used in this project; it solely relies on HTML and CSS for functionality and styling.
+
+## Development
+
+This project was developed while taking the Harvard virtual class CS50's Web Programming with Python and JavaScript. It served as a practical exercise to reinforce concepts learned during the course.
 
 ## Usage
 
