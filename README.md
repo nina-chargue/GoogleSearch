@@ -23,3 +23,7 @@ This project was developed while taking the Harvard virtual class CS50's Web Pro
 1. Clone the repository: `git clone https://github.com/your_username/google-like-search.git`
 2. Open the desired HTML file in your web browser (e.g., index.html for regular search, image_search.html for image search, and advanced_search.html for advanced search).
 3. Explore the functionalities by performing searches and navigating through the pages.
+
+## Demonstrative Video 
+
+https://www.youtube.com/watch?v=9opFbg0AE5o
