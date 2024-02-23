@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function changeAction() {
+            var form = document.getElementById("searchForm");
+            var query = encodeURIComponent(form.querySelector('input[name="q"]').value);
+            window.location.href = "https://www.google.com/search?btnI=1&q=" + query;
+        }
+    </script>
+</head>
+<body>
+    <div class="link-container">
+        <a href="imageSearch.html">Image Search</a>
+        <a href="advanceSearch.html">Advanced Search</a>
+    </div>
+
+    <div class="main-container">
+        <h1 href="index.html" class="colorful-text2">
+            <span>G</span>
+            <span>o</span>
+            <span>o</span>
+            <span>g</span>
+            <span>l</span>
+            <span>e</span>
+        </h1>
+        <form id="searchForm" action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" /> <br />
+            <div class="search-button-container">
+                <input type="submit" class="search-button" value="Google Search" />
+                <input type="button" class="search-button" value="I’m Feeling Lucky" onclick="changeAction()" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

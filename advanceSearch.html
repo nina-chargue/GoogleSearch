@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styleAdvanced.css">
+</head>
+<body>
+    <a href="index.html" class="colorful-text">
+        <span>G</span>
+        <span>o</span>
+        <span>o</span>
+        <span>g</span>
+        <span>l</span>
+        <span>e</span>
+    </a>
+
+    <div class="main-container-advanced">
+        <header class="header">Advanced Search</header>
+        <h5>Find pages with…</h5>
+
+        <form id="searchAdvancedForm" action="https://www.google.com/search" method="GET">
+            <div class="search-option">
+                <label for="allTheseWords">all these words:</label>
+                <input type="text" id="allTheseWords" name="as_q" >
+                <p>Type the important words: tri-colour rat terrier</p>
+            </div>
+            <div class="search-option">
+                <label for="exactPhrase">this exact word or phrase:</label>
+                <input type="text" id="exactPhrase" name="as_epq">
+                <p>Put exact words in quotes: "rat terrier"</p>
+            </div>
+            <div class="search-option">
+                <label for="anyOfTheseWords">any of these words:</label>
+                <input type="text" id="anyOfTheseWords" name="as_oq">
+                <p>Type OR between all the words you want: miniature OR standard</p>
+            </div>
+            <div class="search-option">
+                <label for="noneOfTheseWords">none of these words:</label>
+                <input type="text" id="noneOfTheseWords" name="as_eq">
+                <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+            </div>
+            <input type="submit" value="Advanced Search" class="submit-button">
+        </form>
+    </div>
+</body>
+</html>
